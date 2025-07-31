@@ -48,4 +48,4 @@ if st.button('Classify the Song'):
     }
     prediction_label = cluster_names.get(cluster, "Unknown Category")
 
-    st.success(f'Predict the Song type: {prediction_label}')
+    st.success(f'Predict  Song Type: {prediction_label}')
